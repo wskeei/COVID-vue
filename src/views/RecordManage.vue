@@ -354,11 +354,11 @@
   }
   .floating-box {
     position: fixed;
-    bottom: 20px;
-    right: 480px;
+    bottom: 560px;
+    right: 475px; /* 左右 */
     background-color: red;
     color: black;
-    padding: 100px;
+    padding: 10px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     animation: floatAnimation 1s infinite alternate; /* 根据需要调整动画持续时间 */
@@ -367,7 +367,7 @@
   /* 浮动框内的文本样式 */
   .floating-text {
     margin: 0;
-    font-size: 100px;
+    font-size: 30px;
     font-weight: bold;
   }
 
